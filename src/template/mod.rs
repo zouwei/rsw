@@ -52,7 +52,7 @@ pub fn render(site_name: &str, public: &str, md_file: MdFile) {
         mtime: mtime,
     };
 
-    // 渲染模板
+    // 渲染模板HU
     let html_content = render_template(site_name, public, md_head, html_str.as_str(), md_file.page_id.as_str());
 
     // 生成目标文件
