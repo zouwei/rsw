@@ -35,7 +35,7 @@ static MD_STR: &str = r#"---
 title: {{ project }} 
 author: RustWriter
 template: index
----
+---zxb
 
 # {{ project }}
 This is written in rust writer. Simple, free and happy."#;
