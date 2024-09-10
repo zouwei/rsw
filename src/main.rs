@@ -107,6 +107,7 @@ fn loop_parse(site_name: &str, build: &str, public: &str, src: &str) {
 }
 
 // 编译后的模板文件目录，将可以发布到网上
+// 修改文件测试提交
 static BUILD_DIR: &str = "build";
 // 资源文件，如css、js、图片
 static PUBLIC_DIR: &str = "public";
